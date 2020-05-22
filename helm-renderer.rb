@@ -11,6 +11,8 @@ class HelmRenderer < Formula
 
   def install
     bin.install "helm-renderer"
+    ohai "You're done! Run with \"helm-renderer\""
+    ohai "For options, see \"helm-renderer --help\""
   end
 
   test do
