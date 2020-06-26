@@ -5,8 +5,8 @@ class HelmRenderer < Formula
 
   desc "Render Helm charts for your k8s cluster locally"
   homepage "https://github.com/afnanenayet/helm-renderer"
-  url "https://github.com/afnanenayet/helm-renderer/releases/download/v0.1.4.3/helm-renderer-darwin.tar.gz"
-  sha256 "fd7b26e623b60c2742eb1770856b7a6a173e42bb4714ef0631c591e08edaaf67"
+  url "https://github.com/afnanenayet/helm-renderer/releases/download/v0.1.5.0/helm-renderer-darwin.tar.gz"
+  sha256 "225053d3a03b1222e2b0704781f8c9580b37d183eb65939aa44142bc759bd09e"
   head "https://github.com/afnanenayet/helm-renderer.git"
 
   def install
