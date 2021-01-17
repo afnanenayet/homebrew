@@ -1,4 +1,4 @@
-class DiffSitter < Formula
+class Diffsitter < Formula
   desc "Meaningful semantic diffs"
   homepage "https://github.com/afnanenayet/diffsitter"
   url "https://github.com/afnanenayet/diffsitter/releases/download/v0.1.1/diffsitter-darwin-amd64"
