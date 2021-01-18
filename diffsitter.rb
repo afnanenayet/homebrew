@@ -1,8 +1,8 @@
 class Diffsitter < Formula
   desc "Meaningful semantic diffs"
   homepage "https://github.com/afnanenayet/diffsitter"
-  url "https://github.com/afnanenayet/diffsitter/releases/download/v0.1.2/diffsitter-darwin-amd64.tar.gz"
-  sha256 "9e070eb700172b690a69621fdddba4048a3a6a16ca79a85323c5fdb87bb5f26d"
+  url "https://github.com/afnanenayet/diffsitter/releases/download/v0.1.6/diffsitter-darwin-amd64.tar.gz"
+  sha256 "b2bb8704f04eb1e455b2ff1018c05209e22911ac2db80060aabb6abca84857cb"
   license "MIT"
 
   def install
