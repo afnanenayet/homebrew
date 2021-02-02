@@ -7,7 +7,6 @@ class Diffsitter < Formula
   license "MIT"
 
   def install
-    bin.install "diffsitter"
-    bin.install "git-diffsitter"
+    bin.install "diffsitter" "git-diffsitter"
   end
 end
