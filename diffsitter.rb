@@ -3,7 +3,7 @@ class Diffsitter < Formula
   homepage "https://github.com/afnanenayet/diffsitter"
   version "0.5.0-1"
   url "https://github.com/afnanenayet/diffsitter/releases/download/v#{version}/diffsitter-darwin-amd64.tar.gz"
-  sha256 "e4b2fc9e877f5611c00ba25f577e2b0557e58408e81896f85c61125dd91b9613"
+  sha256 "9a768601b3cb52b802654c8310a60bea74b02213980ab7e27fdcf75dbb328a8f"
   license "MIT"
 
   def install
