@@ -10,4 +10,5 @@ class Diffsitter < Formula
     bin.install "diffsitter"
     bin.install "git-diffsitter"
   end
+
 end
