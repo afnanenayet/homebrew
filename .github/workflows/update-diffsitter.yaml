@@ -1,0 +1,21 @@
+# Update diffsitter through a Github API dispatch event. This will download the
+# specified version formula from a release and create a pull request.
+
+on: [repository_dispatch]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get package info from repo
+        run: |
+          curl -LO https://github.com/afnanenayet/diffsitter/releases/download/${{ github.event.client_payload.version }}/bottom.rb
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v3.5.0
+        with:
+          commit-message: "Update diffsitter package formula to ${{ github.event.client_payload.version }}"
+          title: "[chore] Update diffsitter to ${{ github.event.client_payload.version }}"
+          body: "Update diffsitter formula to version ${{ github.event.client_payload.version }}."
+          branch: update_branch
+          delete-branch: true
