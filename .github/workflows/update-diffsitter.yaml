@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Get package info from repo
         run: |
-          curl -LO https://github.com/afnanenayet/diffsitter/releases/download/${{ github.event.client_payload.version }}/bottom.rb
+          curl -LO https://github.com/afnanenayet/diffsitter/releases/download/${{ github.event.client_payload.version }}/diffsitter.rb
       - name: Create PR
         uses: peter-evans/create-pull-request@v3.5.0
         with:
