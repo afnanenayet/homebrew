@@ -7,13 +7,13 @@ class Diffsitter < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/afnanenayet/diffsitter/releases/download/v0.8.1/diffsitter-aarch64-apple-darwin.tar.gz"
-      sha256 "c6384fd5d4afd9c2212bc1f89812a926335cd50d47cc8af3e26b30975e072885"
+      url "https://github.com/afnanenayet/diffsitter/releases/download/v0.8.2/diffsitter-aarch64-apple-darwin.tar.gz"
+      sha256 "4371ca7c1d84aadfaa5220ab25e383f4efb719a2df4f9c007db905939c7e2c14"
     end
 
     on_intel do
-      url "https://github.com/afnanenayet/diffsitter/releases/download/v0.8.1/diffsitter-x86_64-apple-darwin.tar.gz"
-      sha256 "5e27db1d6a8acd492b19cdee4cd3be57f7d6c4d6b4db5685c620d1a3e5d8be6b"
+      url "https://github.com/afnanenayet/diffsitter/releases/download/v0.8.2/diffsitter-x86_64-apple-darwin.tar.gz"
+      sha256 "83728dc3a174c5331e4caf2ef89e5e0b23c7d6ea70f7836ff55207a6994560df"
     end
   end
 
